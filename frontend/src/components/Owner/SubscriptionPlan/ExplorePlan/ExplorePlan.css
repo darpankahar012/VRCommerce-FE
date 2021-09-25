@@ -1,0 +1,39 @@
+/* .Plan:hover {
+    background-color: powderblue;
+    transition: background-color .5s;
+} */
+
+.Plan {
+    transition: box-shadow,border-radius .3s;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  .Plan:hover {
+    border-radius:20px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+  hr.new2 {
+    border-top: 2px dashed gray;
+  }
+
+  h3.GreenFont{
+    color:green;
+  }
+  h3.RedFont{
+    color:red
+  }
+  h3.GrayFont{
+    color:gray
+  }
+
+  h2.GreenFont{
+    color:green;
+  }
+  h2.RedFont{
+    color:red
+  }
+  h2.GrayFont{
+    color:gray
+  }

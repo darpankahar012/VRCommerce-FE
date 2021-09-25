@@ -1,0 +1,106 @@
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+  .navbar1 {
+    font-size: 18px;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313B 74%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+  }
+
+  .main-nav1 {
+    list-style-type: none;
+    display: none;
+  }
+
+  .nav-links1,
+  .logo1 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .main-nav1 li {
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .logo1 {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .navbar-toggle1 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+
+  #chkToggle {
+    display: none;
+  }
+
+  #chkToggle:checked + ul.main-nav1 {
+    display: block;
+  }
+  .registerRestaurant__button{
+    background: #ff8b47 !important;
+    color: white !important;
+    font-weight: 900 !important;
+    border: #ff8b47 !important;
+   
+  }
+
+.registerRestaurant__button:hover{
+  transform: none !important;
+}
+  @media screen and (min-width: 768px) {
+    .navbar1 {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+
+    #chkToggle:checked + ul.main-nav1 {
+      display: flex;
+    }
+
+    .main-nav1 {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-bottom: 0 !important;
+    }
+
+    .main-nav1 li {
+      margin: 0;
+    }
+
+    .nav-links1 {
+      margin-left: 40px;
+    }
+
+    .logo1 {
+      margin-top: 0;
+    }
+
+    .navbar-toggle1 {
+      display: none;
+    }
+
+  }

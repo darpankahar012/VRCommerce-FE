@@ -1,0 +1,45 @@
+#succesPaymentPage {
+  background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+  height: 100vh;
+}
+
+.logo {
+  width: 30%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.mainContent {
+  text-align: center;
+
+  width: 60%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContent {
+    width: 90%;
+  }
+
+  .succesImage {
+    width: 50% !important;
+  }
+}
+
+.imageSec {
+  padding-top: 10%;
+}
+.succesImage {
+  width: 20%;
+}
+
+.loginBtn {
+  padding-top: 40px;
+}
+
+.mainHeader {
+  padding-top: 8%;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  line-height: 39px;
+}

@@ -1,0 +1,78 @@
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: darkblue
+    /* margin-top: 80px;
+     margin-bottom: 40px; */
+}
+.bottom-left {
+    position: absolute;
+    bottom: 12px;
+    left: 25px;
+    color:white;
+    font-size: x-large;
+  }
+.city-list{
+    margin-top: 50px;
+}
+.content-my{
+  margin-top: 80px;
+}
+.content-demo{
+  margin-top: 40px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.blob.red {
+    background: rgba(255, 82, 82, 1);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+    animation: pulse-red 2s infinite;
+}
+.description {
+    font-size: .875rem;
+}
+.row-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+strong {
+    font-weight: bolder;
+}
+.city {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.img-wrapper {  
+    /* width: 400px;
+    height: 400px; */
+    overflow: hidden; 
+  }
+  
+  .inner-img {
+    transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.3);
+
+  }
+  
+  /* Other styling elements, that are not necessary for the example */
+  
+  .img-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+    
+  }
